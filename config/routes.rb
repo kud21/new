@@ -1,3 +1,7 @@
+#Rails.application.routes.draw do
+#  root 'application#goodbye'
+#end
+
 Rails.application.routes.draw do
-  root 'application#hello'
+  root to: 'home#index'
 end
